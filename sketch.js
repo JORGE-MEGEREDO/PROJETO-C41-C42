@@ -94,7 +94,7 @@ function draw() {
       gameState = END;
     }
     //SUBSTITUA O NOME DO GRUPO E DO SPRITE PARA O CORRETO QUANDO ARBUSTOS TOCAM O PROTAGONISTA
-    if(NOMEDOGRUPO.isTouching(SPRITE)){
+    if(NOMEDOGRUPO.isTouching(shrub)){
       score = score + 1;
       shrubsGroup.destroyEach();
     }
